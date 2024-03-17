@@ -58,4 +58,11 @@ def preprocess(data):
 
     df['period'] = period
 
+    column_name = 'message'
+    extracted_column = df[column_name]
+
+    ext_df = pd.DataFrame(extracted_column)
+
+    ext_df.to_csv('message.csv')
+
     return df
