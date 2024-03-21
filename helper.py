@@ -1,22 +1,8 @@
 from urlextract import URLExtract
-from wordcloud import WordCloud
-import pandas as pd
-from collections import Counter
-import emoji
-from textblob import TextBlob
-import matplotlib.pyplot as plt
 import nltk
 import pandas as pd
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-from collections import Counter
 import emoji
-from nltk.tokenize import word_tokenize
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from nltk.tokenize import word_tokenize
 from wordcloud import WordCloud
-import matplotlib.pyplot as plt
 from collections import Counter
 
 
