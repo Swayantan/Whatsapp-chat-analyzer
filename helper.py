@@ -1,5 +1,6 @@
 from urlextract import URLExtract
 import nltk
+nltk.download('punkt')
 import pandas as pd
 import emoji
 from wordcloud import WordCloud
